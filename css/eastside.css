@@ -1,0 +1,109 @@
+body{
+    background: url('https://smudgemetaphysicalblog.com/wp-content/uploads/2015/08/website-background-full-hd-backgrounds-vintage-red-661979.jpg');
+    padding: 0px;
+    margin: 0px;
+    background-attachment:fixed;
+  }
+  
+  button{
+    width: 100px;
+    height: 30px;
+    background-color: #efe0a7;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 10px;
+  }
+  .container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .box1{
+    background-color: rgba(56, 10, 20, 0.5);
+    color: white;
+    padding: 10px;
+    }
+  
+  .box2{
+    background-color: rgba(56, 10, 20, 0.5);
+    color: white;
+    padding: 10px;
+    }
+  
+  .box2 .puppies{
+    color: #edd197;
+  }
+  
+  .box2 img{
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+  }
+  
+  .box2 a{
+    text-align: right;
+    text-decoration: none;
+  }
+  
+  .box1 img{
+    width: 450px;
+  }
+  
+  .doctors{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  
+  .doctors img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .footer{
+    background-color: rgba(56, 10, 20, 0.5);
+    color: white;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  hr{
+    width: 70%;
+    
+  }
+  
+  .footer p{
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 984px){
+    .container{
+      display: inline-block;
+      width: 100%;
+  
+    }
+    
+    .doctors{
+      display: inline-block;
+      
+    }
+    .footer{
+      margin: 0px;
+      width: 100%;
+    }
+    
+    hr{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 450px){
+    .mainimage{
+      display: none;
+    }
+  }

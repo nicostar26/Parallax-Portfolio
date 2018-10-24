@@ -1,0 +1,120 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5em;
+    background-color: #ffe2b7;
+  }
+  
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: orange;
+    padding: 0px;
+    border-bottom: 2px solid black;
+  }
+  
+  .name{
+    padding-left: 5px;
+  }
+  
+  .nav ul{
+    display: flex;
+    list-style: none;
+    padding-top: 5px;
+  }
+  
+  .nav li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+  }
+  
+  .nav a:hover{
+    color: black;
+  }
+  
+  .name h1:hover{
+    color: white;
+  }
+  
+  .image{
+    background-image: url('https://xzdl43v0mdf2m45tz2aj7kkv35-wpengine.netdna-ssl.com/wp-content/uploads/2010/10/orange-780x400.jpg');
+    background-size: cover;
+    height: 300px;
+    border-bottom: 1px black solid;
+  }
+  
+  .content h1, .history h1{
+    text-align: center;
+  }
+  
+  .content img{
+    width: 300px;
+    height: 150px;
+    float: left;
+    padding: 5px;
+  }
+  
+  .content p, .history p{
+    margin: 10px;
+  }
+  
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    width: 100vw;
+  }
+  
+  .box2{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/512BXRNPD4L.jpg");
+    background-size: cover;
+  }
+  
+  .box4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5cg-DRE-bLFNW2Y8h5ZmDSY23IiJh3m_oLMV5ERfCQT6_a8oCw");
+    background-size: cover;
+  }
+  
+  .box5{
+    background-image: url("http://www.hellogreenzambia.com/wp-content/uploads/2017/06/5-things-to-do-with-oranges-1024x768-Copy.jpg");
+    background-size: cover;
+  }
+  
+  .box7{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58gFuzPt_wx6Mpfr4EuKOeqVQITGTTCL6EnvKHyjEJNJKYSSHbg");
+    background-size: cover;
+  }
+  
+  .box1, .box3, .box6, .box8{
+    background-color: orange;
+  }
+  
+  .wrapper h3{
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+  }
+  
+  .more-content{
+    margin: 10px;
+  }
+  
+  .more-content h2{
+    text-align: center;
+  }
+  
+  footer{
+    height: 75px;
+    background-color: orange;
+  }
+  
+  footer p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 25px;
+  }
