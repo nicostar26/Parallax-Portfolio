@@ -168,15 +168,9 @@ body, html{
     color: blue;
   }
 
-  @media only screen and (max-width: 1000px){
-    .projects{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .webdev, .logos, .digitalart{
+  @media only screen and (max-width: 1200px){
+    .projects, .webdev, .logos, .digitalart{
       display: block;
-      text-align: center;
     }
   }
 
@@ -187,7 +181,7 @@ body, html{
     }
 
     .img1, .img2, .img3, .img4{
-      background-attachment: scroll;
+      background-attachment: fixed;
     }
 
     .toptext{
