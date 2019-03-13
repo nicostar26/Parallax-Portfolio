@@ -16,12 +16,12 @@ body, html{
   }
   
   .img1{
-    background-image: url('../img/img1.jpeg');
+    background-image: url('../img/img1.jpg');
     min-height: 100%;
   }
   
   .img2{
-    background-image: url('../img/img2.jpeg');
+    background-image: url('../img/img2.jpg');
     min-height: 400px;
   }
   
@@ -173,6 +173,26 @@ body, html{
       display: block;
     }
 
+    .img1{
+      background-image: url('../img/img1.jpg');
+      min-height: 100%;
+    }
+    
+    .img2{
+      background-image: url('../img/img2.jpg');
+      min-height: 100%;
+    }
+    
+    .img3{
+      background-image: url('../img/workstation.jpg');
+      min-height: 100%;
+    }
+    
+    .img4{
+      background-image: url('../img/sky.jpg');
+      min-height: 100%;
+    }
+
   }
 
   @media only screen and (max-width: 700px){
@@ -197,5 +217,25 @@ body, html{
       margin-left: 10%;
       letter-spacing: 8px;
       line-height: 1.7em;
+    }
+
+    .img1{
+      background-image: url('../img/img1.jpg');
+      min-height: 100%;
+    }
+    
+    .img2{
+      background-image: url('../img/img2.jpg');
+      min-height: 100%;
+    }
+    
+    .img3{
+      background-image: url('../img/workstation.jpg');
+      min-height: 100%;
+    }
+    
+    .img4{
+      background-image: url('../img/sky.jpg');
+      min-height: 100%;
     }
   }
