@@ -33,6 +33,15 @@ body, html{
     background-image: url('../img/sky.jpg');
     min-height: 400px;
   }
+
+  .createbtn, .resumebtn{
+    width: 200px;
+    height: 75px;
+    font-size: 18px;
+    background-color: rgb(170, 6, 88);
+    border-radius: 10px;
+    color: white;
+  }
   
   .box img{
       height: 50px;
@@ -79,6 +88,18 @@ body, html{
   strong{
     color: rgb(170, 6, 88);
   }
+
+  .toptext{
+    text-align: center;
+    font-family: 'Bree serif', serif;
+    font-size: 26px;
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    margin-left: 10%;
+    letter-spacing: 8px;
+    line-height: 1.7em;
+  }
   
   .text{
     text-align: center;
@@ -96,9 +117,19 @@ body, html{
     padding: 10px;
   }
 
-  .projects{
+  .digitalart img{
+    height: 280px;
+    width: auto;
+  }
+
+  .webdev, .logos, .digitalart{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .webdevdesc h1, .logosdesc h1, .artdesc h1{
+    color: rgb(170, 6, 88);
+    padding: 100px 0px 50px 0px;
   }
 
   .contact img{
@@ -110,6 +141,18 @@ body, html{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 20px;
+    text-align: center;
+    background-color: #faf9f6;
+  }
+
+  .grid img{
+    width: 100px;
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .contact i{
+    padding: 10px;
   }
 
   @media only screen and (max-width: 1000px){
@@ -117,15 +160,32 @@ body, html{
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
+
+    .webdev, .logos, .digitalart{
+      display: block;
+      text-align: center;
+    }
   }
 
   @media only screen and (max-width: 700px){
 
-    .grid, .toolbox, .projects{
+    .grid, .toolbox, .projects, .webdev, .logos, .digitalart{
       display: block;
     }
 
     .img1, .img2, .img3, .img4{
       background-attachment: scroll;
+    }
+
+    .toptext{
+      text-align: center;
+      font-family: 'Bree serif', serif;
+      font-size: 26px;
+      position: absolute;
+      top: 20%;
+      width: 80%;
+      margin-left: 10%;
+      letter-spacing: 8px;
+      line-height: 1.7em;
     }
   }
