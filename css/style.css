@@ -173,24 +173,12 @@ body, html{
       display: block;
     }
 
-    .img1{
-      background-image: url('../img/img1.jpg');
-      min-height: 100%;
-    }
-    
-    .img2{
-      background-image: url('../img/img2.jpg');
-      min-height: 100%;
-    }
-    
-    .img3{
-      background-image: url('../img/workstation.jpg');
-      min-height: 100%;
-    }
-    
-    .img4{
-      background-image: url('../img/sky.jpg');
-      min-height: 100%;
+    .img1, .img2, .img3, .img4{
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: scroll;
     }
 
   }
@@ -219,23 +207,11 @@ body, html{
       line-height: 1.7em;
     }
 
-    .img1{
-      background-image: url('../img/img1.jpg');
-      min-height: 100%;
-    }
-    
-    .img2{
-      background-image: url('../img/img2.jpg');
-      min-height: 100%;
-    }
-    
-    .img3{
-      background-image: url('../img/workstation.jpg');
-      min-height: 100%;
-    }
-    
-    .img4{
-      background-image: url('../img/sky.jpg');
-      min-height: 100%;
+    .img1, .img2, .img3, .img4{
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: scroll;
     }
   }
