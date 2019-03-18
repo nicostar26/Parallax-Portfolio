@@ -183,6 +183,14 @@ body, html{
     color: blue;
   }
 
+  .resumebtn2{
+    display: none;
+  }
+
+  .contact button{
+    margin: auto;;
+  }
+
   @media only screen and (max-width: 1200px){
     .projects, .webdev, .logos, .digitalart{
       display: block;
@@ -195,6 +203,13 @@ body, html{
       background-attachment: scroll;
     }
 
+    .img1{
+      background-image: url('../img/img1.jpg');
+      min-height: 500px;
+    }
+
+    
+
   }
 
   @media only screen and (max-width: 700px){
@@ -203,10 +218,19 @@ body, html{
       display: block;
     }
 
+    .img1{
+      background-image: url('../img/img1.jpg');
+      min-height: 400px;
+    }
+
     .digitalart img{
       height: 220px;
       width: auto;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .createbtn, .resumebtn{
+      display: none;
     }
 
 
@@ -226,5 +250,15 @@ body, html{
       background-size: 100% 100%;
       background-position: center;
       background-attachment: scroll;
+    }
+
+    .resumebtn2{
+      display: block;
+      width: 210px;
+    height: 75px;
+    font-size: 16px;
+    background-color: rgb(170, 6, 88);
+    border-radius: 10px;
+    color: white;
     }
   }
