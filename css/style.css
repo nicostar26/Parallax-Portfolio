@@ -84,6 +84,17 @@ body, html{
     margin: auto;
     font-size: 22px;
   }
+
+  .about-me{
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .about-me-pic img{
+    width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
   
   .about-me, .contact{
     background-color: rgb(224, 220, 220);
@@ -208,6 +219,17 @@ body, html{
       min-height: 500px;
     }
 
+    .toptext{
+      text-align: center;
+      font-size: 26px;
+      position: absolute;
+      top: 10%;
+      width: 80%;
+      margin-left: 10%;
+      letter-spacing: 8px;
+      line-height: 1.7em;
+    }
+
     
 
   }
@@ -238,7 +260,7 @@ body, html{
       text-align: center;
       font-size: 26px;
       position: absolute;
-      top: 20%;
+      top: 5%;
       width: 80%;
       margin-left: 10%;
       letter-spacing: 8px;
@@ -255,10 +277,10 @@ body, html{
     .resumebtn2{
       display: block;
       width: 210px;
-    height: 75px;
-    font-size: 16px;
-    background-color: rgb(170, 6, 88);
-    border-radius: 10px;
-    color: white;
+      height: 75px;
+      font-size: 16px;
+      background-color: rgb(170, 6, 88);
+      border-radius: 10px;
+      color: white;
     }
   }
